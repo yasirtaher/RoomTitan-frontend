@@ -32,7 +32,7 @@ h6 {
 
 p {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.5;
 }
 
@@ -791,12 +791,12 @@ margin-left: -0.11063829787234%;
     margin-top: 10px;
 }
 
-.btn-chat{
+.btn-chat,.btn-chat:hover{
     border-color: #799F4C;
     color: #fff;
     background-color: #799F4C;
     /*padding-bottom: 30px;*/
-    font-size: 12px;
+    font-size: 16px;
     border-radius: 15px;
 
 }

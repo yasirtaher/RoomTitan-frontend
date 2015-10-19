@@ -4,17 +4,19 @@
             <div class="searchcriteria col-md-12" style="height:100px">
                 
                       <div class="col-md-2 leftspan">
-                          <span>Budget <br></span>
-                          <div class="flat-slider" id="flat-slider"></div>
+                          <span>Budget <br><br></span>
+                          <input id="Slider2" type="slider" name="price" value="5000;50000" />                        
+                              <script type="text/javascript" charset="utf-8">
+                                jQuery("#Slider2").slider({ from: 5000, to: 150000, heterogeneity: ['50/50000'], step: 1000, dimension: '&nbsp;$' });
+                              </script>
                          
                       </div>
 
                       <div class="col-md-2 rightspan" style="background-color:#fff;height:10px">
-                          <span>Furnished <br><i class="fa fa-search"></i><i class="fa fa-search"></i></span>
+                          <span>Furnished <br><i class="fa fa- fa-remove fa-2x"></i><i class="fa fa-check fa-2x"></i></i></span>
                       </div>
                       <div class="col-md-2 rightspan">
-                          <span>Live with <br><i class="fa fa-user"></i>
-                          <i class="fa fa-user"></i>
+                          <span>Live with <br><i class="fa fa-user fa-2x"></i> <i class="fa fa-user fa-2x"></i> <i class="fa fa-users fa-2x"></i>
                           </span>
                       </div>  
                       
