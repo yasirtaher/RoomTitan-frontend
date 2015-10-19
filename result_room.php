@@ -3,22 +3,24 @@
         <div class="row-fluid">
             <div class="searchcriteria col-md-12" style="height:100px">
                 
-                      <div class="col-md-2 leftspan">
+                      <div class="col-md-2 col-sm-6 col-xs-12 leftspan">
                           <span>Budget <br></span>
-                          <div class="flat-slider" id="flat-slider"></div>
+                          <input id="Slider2" type="slider" name="price" value="5000;50000" />                        
+                              <script type="text/javascript" charset="utf-8">
+                                jQuery("#Slider2").slider({ from: 5000, to: 150000, heterogeneity: ['50/50000'], step: 1000, dimension: '&nbsp;$' });
+                              </script>
                          
                       </div>
 
-                      <div class="col-md-2 rightspan" style="background-color:#fff;height:10px">
-                          <span>Furnished <br><i class="fa fa-search"></i><i class="fa fa-search"></i></span>
+                      <div class="col-md-2 col-sm-6 col-xs-12 rightspan" style="background-color:#fff;height:10px">
+                          <span>Furnished <br><i class="fa fa- fa-remove fa-2x"></i><i class="fa fa-check fa-2x"></i></span>
                       </div>
-                      <div class="col-md-2 rightspan">
-                          <span>Live with <br><i class="fa fa-user"></i>
-                          <i class="fa fa-user"></i>
+                      <div class="col-md-2 col-sm-6 col-xs-12 rightspan">
+                          <span>Live with <br><i class="fa fa-user fa-2x"></i> <i class="fa fa-user fa-2x"></i> <i class="fa fa-users fa-2x"></i>
                           </span>
                       </div>  
                       
-                      <div class="col-md-2 rightspan">
+                      <div class="col-md-2 col-sm-6 col-xs-12 rightspan">
                         <span>n roommates  <br>
                             <select>
                               <option value="volvo">Volvo</option>
@@ -29,7 +31,7 @@
                         </span>
                       </div> 
 
-                      <div class="col-md-2 rightspan">
+                      <div class="col-md-2 col-sm-6 col-xs-12 rightspan">
                             <span>They should <form action="">
                                 <input type="radio" name="occupation" value="study"> Study
                                 <input type="radio" name="occupation" value="work"> Work
@@ -37,12 +39,12 @@
                             </span>
                       </div> 
 
-                      <div class="col-md-1 rightspan">
-                          <span>Pet-Friendly <i class="fa fa-search"></i><i class="fa fa-search"></i></span>
+                      <div class="col-md-1 col-sm-6 col-xs-12 rightspan">
+                          <span>Pet-Friendly <i class="fa fa-check fa-2x"></i><i class="fa fa-remove fa-2x"></i></span>
                       </div> 
 
-                      <div class="col-md-1 rightspan">
-                         <span>New Search <i class="fa fa-search"></i></span>
+                      <div class="col-md-1 col-sm-6 col-xs-12 rightspan">
+                         <span>New Search <i class="fa fa-search fa-2x"></i></span>
                       </div> 
               
 

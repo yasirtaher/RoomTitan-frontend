@@ -67,7 +67,7 @@
                     
                     <div class="agent-chat">
 
-                        <button class="btn btn-chat fa fa-weixin" type="submit"> Chat with me</button>                       
+                        <button class="btn btn-chat fa fa-comment-o" type="submit"> Chat with me</button>                       
                         <p class="pull-right"> Gay friendly</p> 
 
                     </div>

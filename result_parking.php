@@ -3,16 +3,25 @@
         <div class="row-fluid">
             <div class="searchcriteria col-md-12" style="height:100px">
                 
-                       <div class="col-md-2">
-                          <span>Metro Station <br></span>
-                          <div class="flat-slider" id="flat-slider"></div>
+                       <div class="col-md-2 col-sm-6 col-xs-12 leftspan">
+                          <span>Metro Station <br>
+                            <select>
+                              <option value="volvo">Volvo</option>
+                              <option value="saab">Saab</option>
+                              <option value="mercedes">Mercedes</option>
+                              <option value="audi">Audi</option>
+                            </select> 
+                        </span>
                       </div>
-                      <div class="col-md-2 rightspan">
-                          <span>Budget <br></span>
-                          <div class="flat-slider" id="flat-slider"></div>
+                      <div class="col-md-2 col-sm-6 col-xs-12 leftspan">
+                          <span>Budget <br><br></span>
+                              <input id="Slider2" type="slider" name="price" value="5000;50000" />                        
+                              <script type="text/javascript" charset="utf-8">
+                                jQuery("#Slider2").slider({ from: 5000, to: 150000, heterogeneity: ['50/50000'], step: 1000, dimension: '&nbsp;$' });
+                              </script>
                       </div>
 
-                      <div class="col-md-2 rightspan" style="background-color:#fff;height:10px">
+                      <div class="col-md-2 col-sm-6 col-xs-12 rightspan">
                           <span>Rent  <br>
                             <select>
                               <option value="volvo">Volvo</option>
@@ -22,14 +31,14 @@
                             </select> 
                         </span>
                       </div>
-                       <div class="col-md-1 rightspan">
+                       <div class="col-md-1 col-sm-6 col-xs-12 rightspan park">
                             <span><form action="">
                                 <input type="radio" name="type" value="lot"> lot<br>
                                 <input type="radio" name="type" value="garage"> garage
                                 </form>
                             </span>
                       </div> 
-                      <div class="col-md-2 rightspan">
+                      <div class="col-md-2 col-sm-6 col-xs-12 rightspan">
                         <span>Car size  <br>
                             <select>
                               <option value="volvo">Volvo</option>
@@ -40,12 +49,12 @@
                         </span>
                       </div> 
 
-                      <div class="col-md-2 rightspan">
-                          <span>Disable-Friendly <i class="fa fa-search"></i><i class="fa fa-search"></i></span>
+                      <div class="col-md-2 col-sm-6 col-xs-12 rightspan">
+                          <span>Disable-Friendly <br><i class="fa fa fa-wheelchair fa-2x"></i><i class="fa fa-check fa-2x"></i></span>
                       </div> 
 
-                      <div class="col-md-1 rightspan">
-                         <span>New Search <i class="fa fa-search"></i></span>
+                      <div class="col-md-1 col-xs-12 rightspan">
+                         <span>New Search <i class="fa fa-search fa-2x"></i></span>
                       </div> 
               
 
@@ -61,6 +70,7 @@
                  <!-- START PROPERTY LIST -->
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="offer">
+
                         <div class="user-avatar">
                             <img class="avatar-text" src="img/user.jpg">                            
                         </div>
@@ -71,23 +81,15 @@
                             </div>
                         </div>
 
-                         <div class="user-icon">
-                            <div class="user-icon-text">
-                                <span> 1 <i class="fa fa-user fa-2x"></i></span> 
-                                <span>1 <i class="fa fa-user fa-2x"></i></span>                          
-                            </div>
-                        </div>
-
-                         <div class="rent-icon">
-                            <div class="rent-text">
+                         <div class="prent-icon">
+                            <div class="prent-text">
                                 <span><i class="fa fa-usd "></i>1000</span>                                                       
                             </div>
                         </div>
 
-                        <div class="place-icon">
-                            <div class="place-text">
-                                <span><i class="fa fa-map-marker "></i> Washington DC</span> 
-                                                       
+                        <div class="pplace-icon">
+                            <div class="pplace-text">
+                                <span><i class="fa fa-map-marker "></i> Washington DC</span>                   
                             </div>
                         </div>
                     </div>
@@ -103,22 +105,16 @@
                             </div>
                         </div>
 
-                         <div class="user-icon">
-                            <div class="user-icon-text">
-                                <span>1 <i class="fa fa-user fa-2x"></i></span> 
-                                <span>1 <i class="fa fa-user fa-2x"></i></span>                          
-                            </div>
-                        </div>
 
-                         <div class="rent-icon">
-                            <div class="rent-text">
+                         <div class="prent-icon">
+                            <div class="prent-text">
                                 <span><i class="fa fa-usd "></i>1000</span> 
                                                        
                             </div>
                         </div>
 
-                        <div class="place-icon">
-                            <div class="place-text">
+                        <div class="pplace-icon">
+                            <div class="pplace-text">
                                 <span><i class="fa fa-map-marker "></i> Washington DC</span> 
                                                        
                             </div>
@@ -136,21 +132,14 @@
                             </div>
                         </div>
 
-                         <div class="user-icon">
-                            <div class="user-icon-text">
-                                <span>1 <i class="fa fa-user fa-2x"></i></span> 
-                                <span>1 <i class="fa fa-user fa-2x"></i></span>                          
-                            </div>
-                        </div>
-
-                         <div class="rent-icon">
-                            <div class="rent-text">
+                         <div class="prent-icon ">
+                            <div class="prent-text">
                                 <span><i class="fa fa-usd "></i>1000</span>                                                        
                             </div>
                         </div>
 
-                        <div class="place-icon">
-                            <div class="place-text">
+                        <div class="pplace-icon">
+                            <div class="pplace-text">
                                 <span><i class="fa fa-map-marker "></i> Washington DC</span>                                                        
                             </div>
                         </div>

@@ -4,21 +4,6 @@
     	
     	<div class="col-md-6">
 
-		    <!-- <div class="card hovercard">
-		        <div class="card-background ">
-		            <img class="card-bkimg" alt="" src="img/property1.jpg">
-		        </div>
-		        <div class=" useravatar col-md-4">
-		            <img alt="" src="http://lorempixel.com/100/100/people/9/">
-		        </div>
-
-		        <div class="col-md-8 details pull-right"> 
-		        	<span><h2>Pamela Anderson</h2></span><br>
-		        	<span><i><h4>Washington, DC</h4></i></span><br>
-		        	<span>FB in tw</span>
-		        </div>
-		    </div> -->
-
 		    <div class="profile-img">
 		    <div class="bkimg">
 		    	<img src="img/property3.jpg">

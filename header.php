@@ -24,17 +24,23 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/titan.css" type="text/css">
-    <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
-      <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-      <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
-    <script>
-    $('#flat-slider').slider({
-        orientation: 'horizontal',
-        range:       true,
-        values:      [17,67]
-    });
-    </script>
+    <!-- bin/jquery.slider.min.css -->
+    <link rel="stylesheet" href="css/jslider.css" type="text/css">
+
+    <!-- end -->
+
+    <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+      
+    <!-- bin/jquery.slider.min.js -->
+    <script type="text/javascript" src="js/jshashtable-2.1_src.js"></script>
+    <script type="text/javascript" src="js/jquery.numberformatter-1.2.3.js"></script>
+    <script type="text/javascript" src="js/tmpl.js"></script>
+    <script type="text/javascript" src="js/jquery.dependClass-0.1.js"></script>
+    <script type="text/javascript" src="js/draggable-0.1.js"></script>
+    <script type="text/javascript" src="js/jquery.slider.js"></script>
+
+
 </head>
 
 <body id="page-top">
