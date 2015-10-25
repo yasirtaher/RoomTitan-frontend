@@ -3,7 +3,7 @@
         <div class="row-fluid">
             <div class="searchcriteria col-md-12" style="height:100px">
                 
-                       <div class="col-md-3 leftspan">
+                       <div class="col-md-3 col-sm-6 col-xs-12 leftspan">
                           <div class="fleft">
                                <input type="text" class="filterbox form-control" placeholder="Zip Code">
                           </div>
@@ -46,7 +46,7 @@
                           <span>Disable-Friendly <br><i class="fa fa fa-wheelchair fa-2x"></i><i class="fa fa-check fa-2x"></i></span>
                       </div> 
 
-                      <div class="col-md-1 rightspan">
+                      <div class="col-md-1 col-sm-6 col-xs-12 rightspan">
                          <span>List view <br><i class="fa fa-list fa-2x"></i></span>
                       </div> 
               

@@ -3,7 +3,7 @@
         <div class="row-fluid">
             <div class="searchcriteria col-md-12" style="height:100px">
                 
-                                            <div class="col-md-4 leftspan">
+                         <div class="col-md-4 col-sm-6 col-xs-12 leftspan">
                    
                           <div class="fleft">
                                <input type="text" class="filterbox form-control" placeholder="Zip Code">
@@ -17,7 +17,7 @@
                           </div> 
                       </div>
 
-                      <div class="col-md-2 leftspan">
+                      <div class="col-md-2 col-sm-6 col-xs-12 leftspan">
                           <span>Budget <br><br></span>
                           <input id="Slider2" type="slider" name="price" value="5000;50000" />                        
                               <script type="text/javascript" charset="utf-8">
@@ -26,7 +26,7 @@
                          
                       </div>
 
-                      <div class="col-md-1 rightspan" style="background-color:#fff;height:10px">
+                      <div class="col-md-1 col-sm-6 col-xs-12 rightspan" style="background-color:#fff;height:10px">
                           <span>Furnished <br>
                             <form action="">
                               <input type="radio" name="furnished" value="1"> yes<br>
@@ -36,7 +36,7 @@
 
                       </div>
                       
-                      <div class="col-md-2 rightspan">
+                      <div class="col-md-2 col-sm-6 col-xs-12 rightspan">
                             <span>Occupation<br>
                               <select class="dropdowncust form-control">
                                 <option value="1">Study</option>
@@ -45,7 +45,7 @@
                             </span>
                       </div> 
 
-                      <div class="col-md-2 rightspan">
+                      <div class="col-md-2 col-sm-6 col-xs-12 rightspan">
                           <span>Pet-Friendly <br>
                             <form action="">
                               <input type="radio" name="furnished" value="1"> yes
@@ -54,7 +54,7 @@
                           </span>
                       </div> 
 
-                      <div class="col-md-1 rightspan">
+                      <div class="col-md-1 col-sm-6 col-xs-12 rightspan">
                          <span>List view <br><i class="fa fa-list fa-2x"></i></span>
                       </div> 
               
