@@ -61,12 +61,6 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 
-                <form class="searchform navbar-form navbar-left" role="search">
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Search">
-                    </div>
-                </form>
-
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a data-toggle="dropdown" class="dropdown-toggle page-scroll" href="#"><i class="glyphicon glyphicon-plus-sign"></i> ADD PROPERTY</a>

@@ -3,16 +3,19 @@
         <div class="row-fluid">
             <div class="searchcriteria col-md-12" style="height:100px">
                 
-                       <div class="col-md-2 col-sm-6 col-xs-12 leftspan">
-                          <span>Metro Station <br>
-                            <select>
-                              <option value="volvo">Volvo</option>
-                              <option value="saab">Saab</option>
-                              <option value="mercedes">Mercedes</option>
-                              <option value="audi">Audi</option>
-                            </select> 
-                        </span>
+                       <div class="col-md-3 leftspan">
+                          <div class="fleft">
+                               <input type="text" class="filterbox form-control" placeholder="Zip Code">
+                          </div>
+                          <div class="fleft">
+                              <select class="dropdowncust form-control">
+                                  <option value="">Listing Type</option>
+                                  <option value="">Room</option>
+                                  <option value="">Parking</option>
+                              </select>
+                          </div> 
                       </div>
+
                       <div class="col-md-2 col-sm-6 col-xs-12 leftspan">
                           <span>Budget <br><br></span>
                               <input id="Slider2" type="slider" name="price" value="5000;50000" />                        
@@ -21,26 +24,16 @@
                               </script>
                       </div>
 
-                      <div class="col-md-2 col-sm-6 col-xs-12 rightspan">
-                          <span>Rent  <br>
-                            <select>
-                              <option value="volvo">Volvo</option>
-                              <option value="saab">Saab</option>
-                              <option value="mercedes">Mercedes</option>
-                              <option value="audi">Audi</option>
-                            </select> 
-                        </span>
-                      </div>
-                       <div class="col-md-1 col-sm-6 col-xs-12 rightspan park">
-                            <span><form action="">
-                                <input type="radio" name="type" value="lot"> lot<br>
+                       <div class="col-md-2 col-sm-6 col-xs-12 ">
+                            <span>Parking type<form action="">
+                                <input type="radio" name="type" value="lot"> lot
                                 <input type="radio" name="type" value="garage"> garage
                                 </form>
                             </span>
                       </div> 
                       <div class="col-md-2 col-sm-6 col-xs-12 rightspan">
                         <span>Car size  <br>
-                            <select>
+                            <select class="dropdowncust form-control">
                               <option value="volvo">Volvo</option>
                               <option value="saab">Saab</option>
                               <option value="mercedes">Mercedes</option>
@@ -53,8 +46,8 @@
                           <span>Disable-Friendly <br><i class="fa fa fa-wheelchair fa-2x"></i><i class="fa fa-check fa-2x"></i></span>
                       </div> 
 
-                      <div class="col-md-1 col-xs-12 rightspan">
-                         <span>New Search <i class="fa fa-search fa-2x"></i></span>
+                      <div class="col-md-1 rightspan">
+                         <span>List view <br><i class="fa fa-list fa-2x"></i></span>
                       </div> 
               
 

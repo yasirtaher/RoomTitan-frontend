@@ -1,8 +1,27 @@
 <?php include('header.php') ?>
+   
+<style>
+
+
+</style>
     <div class="container-fluid">
         <div class="row-fluid">
             <div class="searchcriteria col-md-12" style="height:100px">
                 
+                      <div class="col-md-4 leftspan">
+                   
+                          <div class="fleft">
+                               <input type="text" class="filterbox form-control" placeholder="Zip Code">
+                          </div>
+                          <div class="fleft">
+                              <select class="dropdowncust form-control">
+                                  <option value="">Listing Type</option>
+                                  <option value="">Room</option>
+                                  <option value="">Parking</option>
+                              </select>
+                          </div> 
+                      </div>
+
                       <div class="col-md-2 leftspan">
                           <span>Budget <br><br></span>
                           <input id="Slider2" type="slider" name="price" value="5000;50000" />                        
@@ -12,39 +31,36 @@
                          
                       </div>
 
-                      <div class="col-md-2 rightspan" style="background-color:#fff;height:10px">
-                          <span>Furnished <br><i class="fa fa- fa-remove fa-2x"></i><i class="fa fa-check fa-2x"></i></i></span>
-                      </div>
-                      <div class="col-md-2 rightspan">
-                          <span>Live with <br><i class="fa fa-user fa-2x"></i> <i class="fa fa-user fa-2x"></i> <i class="fa fa-users fa-2x"></i>
+                      <div class="col-md-1 rightspan" style="background-color:#fff;height:10px">
+                          <span>Furnished <br>
+                            <form action="">
+                              <input type="radio" name="furnished" value="1"> yes<br>
+                              <input type="radio" name="furnished" value="2"> no
+                            </form>
                           </span>
-                      </div>  
+
+                      </div>
                       
                       <div class="col-md-2 rightspan">
-                        <span>n roommates  <br>
-                            <select>
-                              <option value="volvo">Volvo</option>
-                              <option value="saab">Saab</option>
-                              <option value="mercedes">Mercedes</option>
-                              <option value="audi">Audi</option>
-                            </select> 
-                        </span>
-                      </div> 
-
-                      <div class="col-md-2 rightspan">
-                            <span>They should <form action="">
-                                <input type="radio" name="occupation" value="study"> Study
-                                <input type="radio" name="occupation" value="work"> Work
-                                </form>
+                            <span>Occupation<br>
+                              <select class="dropdowncust form-control">
+                                <option value="1">Study</option>
+                                <option value="2">Work</option>
+                              </select>
                             </span>
                       </div> 
 
-                      <div class="col-md-1 rightspan">
-                          <span>Pet-Friendly <i class="fa fa-search"></i><i class="fa fa-search"></i></span>
+                      <div class="col-md-2 rightspan">
+                          <span>Pet-Friendly <br>
+                            <form action="">
+                              <input type="radio" name="furnished" value="1"> yes
+                              <input type="radio" name="furnished" value="2"> no
+                            </form>
+                          </span>
                       </div> 
 
                       <div class="col-md-1 rightspan">
-                         <span>New Search <i class="fa fa-search"></i></span>
+                         <span>List view <br><i class="fa fa-list fa-2x"></i></span>
                       </div> 
               
 
