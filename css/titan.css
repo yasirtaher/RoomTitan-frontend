@@ -498,22 +498,22 @@ margin-left: -0.11063829787234%;
     padding-top: 20px;
 }
 .dropdowncust{
-    border-color: #6E6E6E;
-    border-radius: 0px;
-    height: 25px;
-    padding: 4px 12px;
-    font-size: 12px;
-    color: #F7AC42;
+    border-color: #6E6E6E !important;
+    border-radius: 0px !important;
+    height: 25px !important;
+    padding: 4px 12px !important;
+    font-size: 12px !important;
+    color: #F7AC42 !important;
 }
 
 .filterbox,.filterbox:focus {
     background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 10px;
-    margin: 0px auto;
-    border-color: #979797;
-    height: 25px;
-    padding: 4px 12px;
-    font-size: 12px;
+    border-radius: 10px !important;
+    margin: 0px auto !important;
+    border-color: #979797 !important;
+    height: 25px !important;
+    padding: 4px 12px !important;
+    font-size: 12px !important;
 
 }
 
@@ -817,15 +817,6 @@ margin-left: -0.11063829787234%;
     margin-top: 10px;
 }
 
-.btn-chat,.btn-chat:hover{
-    border-color: #799F4C;
-    color: #fff;
-    background-color: #799F4C;
-    /*padding-bottom: 30px;*/
-    font-size: 16px;
-    border-radius: 15px;
-
-}
 
 
 /*PROFILE*/
@@ -974,14 +965,32 @@ margin-left: -0.11063829787234%;
     margin-top: 30%;
 }
 
-.btn-chat-roommate,.btn-chat-roommate:focus{
-    border-color: #518215;
-    color: #fff;
-    background-color: #518215;
-    font-size: 14px;
-    border-radius: 12px !important;
-
-}
+/*BUTTONS*/
+.btn-chat { 
+  color: #FFFFFF; 
+  background-color: #518215; 
+  border-color: #518215;
+  font-size: 16px;
+  border-radius: 7px !important; 
+} 
+ 
+.btn-chat:hover, 
+.btn-chat:focus, 
+.btn-chat:active, 
+.btn-chat.active, 
+.open .dropdown-toggle.btn-chat { 
+  color: #FFFFFF !important; 
+  background-color: #518215; 
+  border-color: #518215; 
+} 
+ 
+.btn-chat:active, 
+.btn-chat.active, 
+.open .dropdown-toggle.btn-chat { 
+  background-image: none; 
+} 
+ 
+/*END BUTTONS*/
 
 @media (max-width: 768px){
     .roommates{
@@ -1083,4 +1092,63 @@ margin-left: -0.11063829787234%;
 
 .confirmationMessage{
     text-align: center;
-    }
+}
+
+/*MY PROPERY*/
+.property_count{
+    border: 1px solid #979797;
+    background-color: #F4F4F4;
+    padding: 12px;
+    width: 98%;
+    text-align: center;
+
+}
+.property{
+    background-color: #FDEDD3;
+    margin-right: 2px;
+    margin-bottom: 10px;
+}
+
+.property_image img{
+    width: 100%;
+    position: relative;
+}
+
+.editbtn{
+    position: absolute;
+    right: 7%;
+    top: 3%;
+}
+
+.property_info {
+    padding: 20px;
+}
+
+.property_info table{
+    width: 100%;
+    margin-left: 7%;
+}
+
+.property_info .renter {
+    text-align: center;
+    text-decoration: underline;
+    margin-left: 25%;
+}
+
+.property_info button{
+    margin-left: 40%;
+}
+
+
+.propertyedit button{
+    margin: 2px;
+
+}
+/*.propertyedit{
+ border: 1px solid #979797;
+    background-color: #F4F4F4;
+    padding: 12px;
+    text-align: center;
+    margin: 2px;
+    width: 98%;
+}*/

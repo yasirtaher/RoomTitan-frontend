@@ -77,7 +77,7 @@
                 <div class="ratingtext">
                     <span class="rat"><i class="fa fa-star fa-2x"></i> 4,2/5</span>
                     <h4>I have credit card</h4>
-                      <button data-toggle="modal" data-target="#messageModal" class="btn btn-chat-roommate"><i class="fa fa-comment-o fa-2x"></i> sent me a message</button>
+                      <button data-toggle="modal" data-target="#messageModal" class="btn btn-chat"><i class="fa fa-comment-o fa-2x"></i> sent me a message</button>
                 </div>
                 </div>
             </div>
@@ -95,7 +95,7 @@
                 <div class="ratingtext">
                     <span class="rat"><i class="fa fa-star fa-2x"></i> 4,2/5</span>
                     <h4>I have credit card</h4>
-                      <button data-toggle="modal" data-target="#messageModal" class="btn btn-chat-roommate"><i class="fa fa-comment-o fa-2x"></i> sent me a message</button>
+                      <button data-toggle="modal" data-target="#messageModal" class="btn btn-chat"><i class="fa fa-comment-o fa-2x"></i> sent me a message</button>
                 </div>
                 </div>
             </div>
@@ -113,11 +113,11 @@
                 <div class="ratingtext">
                     <span class="rat"><i class="fa fa-star fa-2x"></i> 4,2/5</span>
                     <h4>I have credit card</h4>
-                      <button data-toggle="modal" data-target="#messageModal" class="btn btn-chat-roommate"><i class="fa fa-comment-o fa-2x"></i> sent me a message</button>
+                      <button data-toggle="modal" data-target="#messageModal" class="btn btn-chat"><i class="fa fa-comment-o fa-2x"></i> sent me a message</button>
                 </div>
                 </div>
             </div>
-<button data-toggle="modal" data-target="#confirmationModal" class="btn btn-chat-roommate"> another modal</button>
+<button data-toggle="modal" data-target="#confirmationModal" class="btn btn-chat"> another modal</button>
             </div>
 
              <div class="col-md-2 col-sm-1"></div>              
