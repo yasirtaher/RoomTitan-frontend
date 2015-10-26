@@ -86,7 +86,7 @@
                 </div>
   
                <!--  <div class="panel-body"> -->
-                    <div class="tab-content col-md-12 col-sm-12 col-xs-12">
+                    <div class="tabsearch tab-content col-md-12 col-sm-12 col-xs-12">
 
                         <div class="tab-pane fade in active" id="tab1default">
                             <div class="input-group">

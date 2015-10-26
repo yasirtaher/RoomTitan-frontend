@@ -3,7 +3,7 @@
   <div class="row">
       <div class="col-md-4"></div>
       <div class="col-md-4">
-      <h4 class="property_count">YOU HAVE $ PROPERTIES</h4></div>
+          <h4 class="property_count">YOU HAVE $ PROPERTIES</h4></div>
       <div class="col-md-4"></div>
 
       <div class="property-list col-md-12">
