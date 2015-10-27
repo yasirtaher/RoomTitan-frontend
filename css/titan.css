@@ -615,17 +615,14 @@ margin-left: -0.11063829787234%;
 /*****************SEARCH RESULT PAGE***************/
 
 .offer{
-    /*background:#fff; */
-    /*border:1px solid #ddd; */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
     margin-bottom: 5px; 
     overflow:hidden;
     color: #111;
-    background-image: url('../img/property2.jpg');
+    /*background-image: url('../img/property2.jpg');*/
     background-size: 100%;
     border-color: transparent;
     height: 190px;
-
 }
 
 
@@ -640,8 +637,6 @@ margin-left: -0.11063829787234%;
     -moz-transition: all 0.4s ease-in-out; 
     -o-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-
-
 }
 
 
@@ -654,7 +649,6 @@ margin-left: -0.11063829787234%;
     border-color: transparent;
     margin: 4px;
 
-
 }
 
 .avatar-text{
@@ -665,6 +659,7 @@ margin-left: -0.11063829787234%;
     /*margin-top: -18px;*/
     background-size: 100%;
     border-color: #fff;
+    position: relative;
 
 } 
 
@@ -745,7 +740,7 @@ margin-left: -0.11063829787234%;
     height: 0px; 
     width: 0px;
     position: relative;
-    bottom: 0;
+    bottom: -40px;
     border-color: transparent;
 }
 

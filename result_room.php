@@ -66,76 +66,12 @@
 
             <div class="mainView col-md-12">
                 <div class="searchMap col-md-8 col-xs-12">
-                <iframe style="border: 1px solid rgb(142, 137, 131);" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d366.31072781234434!2d90.41294069744393!3d23.813511352687115!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1444811049438" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+                  <iframe style="border: 1px solid rgb(142, 137, 131);" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d366.31072781234434!2d90.41294069744393!3d23.813511352687115!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1444811049438" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
                  <!-- START PROPERTY LIST -->
                 <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="offer">
-                        <div class="user-avatar">
-                            <img class="avatar-text" src="img/user.jpg">                            
-                        </div>
-
-                        <div class="shape">
-                            <div class="shape-text">
-                                <i class="fa fa-heart fa-2x"></i>                            
-                            </div>
-                        </div>
-
-                         <div class="user-icon">
-                            <div class="user-icon-text">
-                                <span> 1 <i class="fa fa-user fa-2x"></i></span> 
-                                <span>1 <i class="fa fa-user fa-2x"></i></span>                          
-                            </div>
-                        </div>
-
-                         <div class="rent-icon">
-                            <div class="rent-text">
-                                <span><i class="fa fa-usd "></i>1000</span>                                                       
-                            </div>
-                        </div>
-
-                        <div class="place-icon">
-                            <div class="place-text">
-                                <span><i class="fa fa-map-marker "></i> Washington DC</span> 
-                                                       
-                            </div>
-                        </div>
-                    </div>
-                    <!-- property -->
-                    <div class="offer">
-                        <div class="user-avatar">
-                            <img class="avatar-text" src="img/user.jpg">                            
-                        </div>
-
-                        <div class="shape">
-                            <div class="shape-text">
-                                <i class="fa fa-heart fa-2x"></i>                            
-                            </div>
-                        </div>
-
-                         <div class="user-icon">
-                            <div class="user-icon-text">
-                                <span>1 <i class="fa fa-user fa-2x"></i></span> 
-                                <span>1 <i class="fa fa-user fa-2x"></i></span>                          
-                            </div>
-                        </div>
-
-                         <div class="rent-icon">
-                            <div class="rent-text">
-                                <span><i class="fa fa-usd "></i>1000</span> 
-                                                       
-                            </div>
-                        </div>
-
-                        <div class="place-icon">
-                            <div class="place-text">
-                                <span><i class="fa fa-map-marker "></i> Washington DC</span> 
-                                                       
-                            </div>
-                        </div>
-                    </div>
- <!-- property -->
-                    <div class="offer">
+                  
+                    <div class="offer" style="background-image: url('img/property2.jpg');">
                         <div class="user-avatar">
                             <img class="avatar-text" src="img/user.jpg">                            
                         </div>
