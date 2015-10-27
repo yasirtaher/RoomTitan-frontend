@@ -90,21 +90,21 @@
 			<h4>PHOTOS</h4>
 			<div class="col-md-4 image-upload">
 	    		<label for="file-input">
-	        		<img src="img/front.png" style="width: 100%"/>
+	        		<img src="img/withcar.png" style="width: 100%"/>
 	    		</label>
 	    		<input id="file-input" type="file"/>
 			</div>
 
 			<div class="col-md-4 image-upload">
 	    		<label for="file-input">
-	        		<img src="img/room.png" style="width: 100%"/>
+	        		<img src="img/withoutcar.png" style="width: 100%"/>
 	    		</label>
 	    		<input id="file-input" type="file"/>
 			</div>
 
 			<div class="col-md-4 image-upload">
 	    		<label for="file-input">
-	        		<img src="img/bathroom.png" style="width: 100%"/>
+	        		<img src="img/morecar.png" style="width: 100%"/>
 	    		</label>
 	    		<input id="file-input" type="file"/>
 			</div>
