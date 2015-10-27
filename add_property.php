@@ -94,11 +94,13 @@
 			  	</div>
 			</div>
 
-			
+		  	<div class="form-group">
+		    	<input type="date" class="form-control customfield" id="address" placeholder="Available">
+		  	</div>
 
-			  <div class="form-group">
-			    <input type="number" class="form-control customfield" id="address" placeholder="$ Deposit">
-			  </div>
+		  	<div class="form-group">
+		    	<input type="number" class="form-control customfield" id="address" placeholder="$ Deposit">
+		  	</div>
 
 			<div class="row">
 				<div class="col-md-6"><label>Furnished</label></div>
