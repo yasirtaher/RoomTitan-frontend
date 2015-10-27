@@ -585,7 +585,34 @@ margin-left: -0.11063829787234%;
 
 
 
-/*SEARCH RESULT PAGE*/
+/******************BUTTONS*****************/
+.btn-chat { 
+  color: #FFFFFF; 
+  background-color: #518215; 
+  border-color: #518215;
+  font-size: 16px;
+  border-radius: 7px !important; 
+} 
+ 
+.btn-chat:hover, 
+.btn-chat:focus, 
+.btn-chat:active, 
+.btn-chat.active, 
+.open .dropdown-toggle.btn-chat { 
+  color: #FFFFFF !important; 
+  background-color: #518215; 
+  border-color: #518215; 
+} 
+ 
+.btn-chat:active, 
+.btn-chat.active, 
+.open .dropdown-toggle.btn-chat { 
+  background-image: none; 
+} 
+ 
+/***************END BUTTONS****************/
+
+/*****************SEARCH RESULT PAGE***************/
 
 .offer{
     /*background:#fff; */
@@ -780,14 +807,13 @@ margin-left: -0.11063829787234%;
 }
 
 
-
 .offer-content{
     padding:0 20px 10px;
 }
 
+/***************END PROPERTY SEARCH************/
 
-
-/*SINGLE PROPERTY DETAILS*/
+/***************SINGLE PROPERTY DETAILS*************/
 .feature-info{
     font-size: 12px;
 }
@@ -817,9 +843,9 @@ margin-left: -0.11063829787234%;
     margin-top: 10px;
 }
 
+/*************** END SINGLE PROPERTY DETAILS*************/
 
-
-/*PROFILE*/
+/**************PROFILE****************/
 
 
 .bkimg img{
@@ -884,7 +910,7 @@ margin-left: -0.11063829787234%;
     color: #FDB65C;
 }
 
-
+/**************END PROFILE****************/
 
 .navbar-right .dropdown-menu {
     right: -30px;
@@ -927,7 +953,7 @@ margin-left: -0.11063829787234%;
     background-color: #C5D5B0;
 }
 
-/*ROOMMATE SEARCH*/
+/************ROOMMATE SEARCH******************/
 .roommates{
     background-color: #FDEDD3;
     height: 230px;
@@ -965,32 +991,7 @@ margin-left: -0.11063829787234%;
     margin-top: 30%;
 }
 
-/*BUTTONS*/
-.btn-chat { 
-  color: #FFFFFF; 
-  background-color: #518215; 
-  border-color: #518215;
-  font-size: 16px;
-  border-radius: 7px !important; 
-} 
- 
-.btn-chat:hover, 
-.btn-chat:focus, 
-.btn-chat:active, 
-.btn-chat.active, 
-.open .dropdown-toggle.btn-chat { 
-  color: #FFFFFF !important; 
-  background-color: #518215; 
-  border-color: #518215; 
-} 
- 
-.btn-chat:active, 
-.btn-chat.active, 
-.open .dropdown-toggle.btn-chat { 
-  background-image: none; 
-} 
- 
-/*END BUTTONS*/
+
 
 @media (max-width: 768px){
     .roommates{
@@ -1056,8 +1057,9 @@ margin-left: -0.11063829787234%;
 }
 
 }
+/************END ROOMMATE SEARCH******************/
 
-/*MESSAGE MODAL*/
+/***********MESSAGE MODAL*************/
 
 .modal-header {
     padding-bottom: 5px;
@@ -1093,8 +1095,9 @@ margin-left: -0.11063829787234%;
 .confirmationMessage{
     text-align: center;
 }
+/*********END MESSAGE MODAL***********/
 
-/*MY PROPERY*/
+/*****************MY PROPERY**********/
 .property_count{
     border: 1px solid #979797;
     background-color: #F4F4F4;
@@ -1144,8 +1147,9 @@ margin-left: -0.11063829787234%;
     margin: 2px;
 
 }
+/************ END MY PROPERY***************/
 
-/*PROFIT and LOSS*/
+/******************PROFIT and LOSS**********/
 
 .profit{
     padding: 12px;
@@ -1170,15 +1174,81 @@ margin-left: -0.11063829787234%;
 }
 
 .profitinfo td{
-    padding: 1px;
+    padding: 2px;
 }
 
-.profitinfo tr{
+.profitinfo th{
     padding: 20px;
 }
 
-.profitinfo th,tr,td{
-    /*border: 2px solid #9F9F9F;*/
+.profitinfo th,.profitinfo td{
+    border-right: 2px solid #9F9F9F;
+    border-bottom: 1px solid #4A4A4A;
     border-top: 0px;
     border-left: 0px;
 }
+
+.profitinfo tr{
+    border-right: 0px;
+    border-bottom: 1px solid #4A4A4A;
+}
+
+.profitinfo .total{
+    border: 2px solid #4A4A4A;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.blank_row
+{
+    height: 30px !important; 
+    background-color: #F4F4F4;
+
+}
+
+.profitinfo .edittag{
+    color: #508114;
+}
+
+.profitinfo i{
+    color: #508114;
+    font-size: 18px;
+}
+
+.profitinfo .middle{
+    text-align: center;
+}
+
+/******************* END PROFIT and LOSS*******************/
+
+.shadow_with_cross{
+   position:relative;       
+   box-shadow:0 0 2px rgb(173,173,173), 0 4px 2px rgb(173,173,173) ;
+}
+
+/**************PROPERTY DETAILS ADD******************/
+
+.add_room{
+    padding: 30px;
+}
+.customfield,.customfield:focus{
+    border:1px solid rgb(151,151,151) !important;
+    border-radius: 0px !important;
+}
+
+.image-upload > input
+{
+    display: none !important;
+}
+
+.image-upload img
+{
+    width: 80px;
+    cursor: pointer;
+    border: 1px solid rgb(151,151,151) !important;
+}
+
+.add_room button{
+    margin-top: 10px;
+}
+/**************END PROPERTY DETAILS ADD******************/
