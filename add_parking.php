@@ -85,8 +85,6 @@
 				<textarea class="form-control customfield"placeholder="Description" rows="8"></textarea>
 			</div>
 
-
-
 			<h4>PHOTOS</h4>
 			<div class="col-md-4 image-upload">
 	    		<label for="file-input">
